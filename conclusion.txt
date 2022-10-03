@@ -1,1 +1,21 @@
-Finalmente podemos concluir que ...
+Finalmente podemos concluir que teniendo en cuenta inicialmente las columnas:
+'alturas_cm'
+'pesos_kg'
+'Frecuencia_cardiaca'
+'Num_de_deflex'
+'T'
+'P'
+'Onda_Q'
+'Onda_R'
+'Onda_S'
+'P_R'
+'Q_T'
+'Salida'
+
+Utilizando los metodos de OLS, Cresta y Lasso podemos despreciar las columnas:
+'alturas_cm'
+'Frecuencia_cardiaca'
+'Num_de_deflex'
+'Q_T'
+
+De esta forma podemos iniciar los metodos de clasificación:
