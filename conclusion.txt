@@ -1,21 +1,15 @@
-Finalmente podemos concluir que teniendo en cuenta inicialmente las columnas:
-'alturas_cm'
-'pesos_kg'
-'Frecuencia_cardiaca'
-'Num_de_deflex'
-'T'
-'P'
-'Onda_Q'
-'Onda_R'
-'Onda_S'
-'P_R'
-'Q_T'
-'Salida'
+#Conclusiones sobre el desarrollo de la practica
+1. Ya que el DataSet utilizado para el proyecto no estaba en formato csv o xlm, fue necesario el uso de una iteración que leyera
+y clasificara las columnas de interes para el ejercicio.
+2. Ya que para poder trabajar con la libreria SKlearn es necesario tener un DataFrame, fue necesario la creación de uno nuevo a partir de los datos
+recuperados del DataSet cargado
+3. El uso de la libreria numpy y pandas fue de vital importancia para el desarrollo del proyecto ya que gracias a estas es posible leer, editar y eliminar
+toda la información del DataSet cargado
 
-Utilizando los metodos de OLS, Cresta y Lasso podemos despreciar las columnas:
-'alturas_cm'
-'Frecuencia_cardiaca'
-'Num_de_deflex'
-'Q_T'
 
-De esta forma podemos iniciar los metodos de clasificación:
+#Conclusiones del resultado del proyecto
+Se encontro que el metodo con menor error en la predicción fue el de Vecinos cercanos
+Utilizando los metodos de penalidad Ridge y Lasso podemos despreciar las columnas:
+'Frecuencia_cardiaca'
+Esto disminuye el error en la predicción de 2 de los 3 metodos de clasificación estudiados
+
